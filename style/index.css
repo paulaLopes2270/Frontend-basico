@@ -1,19 +1,17 @@
-
-.topo ul li:nth-child(1) a{
+.topo ul li:nth-child(1) a {
   color: blue;
 }
-main{
-  flex:1;
+main {
+  flex: 1;
 }
 .corpo {
   width: 100%;
   margin: 0 auto;
   justify-content: center;
- 
 }
-.titulo{
-text-align: center;
-justify-content: center;
+.titulo {
+  text-align: center;
+  justify-content: center;
 }
 .corpo > p {
   max-width: 50%;
@@ -33,23 +31,20 @@ justify-content: center;
   /* flex-direction: column; */
 }
 
-.card{
+.card {
   border: solid 1px black;
   max-width: 100%;
   flex: 0 1 300px;
   overflow: hidden;
-
 }
-.item{
- width: 100%;
+.item {
+  width: 100%;
   /* height: 200px;  */
   flex: 1 1;
 }
 
-
-.card-body{
+.card-body {
   padding: 0;
   margin: 0;
   flex: 1 1;
 }
-

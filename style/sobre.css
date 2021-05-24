@@ -1,12 +1,12 @@
 .topo ul li:nth-child(2) a {
   color: blue;
 }
-.body p{
+.body p {
   margin: 0;
   text-align: left;
 }
-main{
-  flex:1;
+main {
+  flex: 1;
 }
 .corpo {
   max-width: 1200px;
@@ -38,4 +38,3 @@ main{
 .card:nth-child(2) {
   flex-wrap: wrap-reverse;
 }
-
