@@ -1,33 +1,31 @@
-.topo ul li:nth-child(3) a{
+.topo ul li:nth-child(3) a {
   color: blue;
 }
-.sobre{
- display: flex; 
-justify-content: center;
-margin: 0;
-padding: 0;
+.sobre {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
-  
-  form {
+
+form {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   box-sizing: border-box;
   /* padding: 100px; */
   /* padding-top: 30px; */
-  max-width: 800px;
-justify-content: center;
-align-items: center;
-text-align: center;
-margin: 0 auto;
-
+  max-width: 700px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
 }
 .dados {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   flex: 1 1 300px;
- 
 }
 .dados > input,
 .dados > select {
@@ -37,7 +35,6 @@ margin: 0 auto;
   box-sizing: border-box;
   border: 1px solid black;
 }
-
 
 .dados-obs {
   flex: 1 1 100%;
@@ -78,4 +75,9 @@ margin: 0 auto;
 .buttons input:last-child {
   border: 1px solid var(--second-blue);
   color: var(--second-blue);
+}
+
+.contato h1,
+.contato p {
+  margin: 0;
 }
