@@ -1,0 +1,41 @@
+.topo ul li:nth-child(2) a {
+  color: blue;
+}
+p{
+  margin: 0;
+  text-align: left;
+}
+main{
+  flex:1;
+}
+.corpo {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.titulo {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 25px;
+  align-items: flex-start;
+}
+.card img {
+  max-width: 100px;
+  /* height: auto; */
+  flex: 1 1 400px;
+}
+
+.card p {
+  margin: 0 auto;
+  flex: 1 1 300px;
+}
+
+.card:nth-child(2) {
+  flex-wrap: wrap-reverse;
+}
+

@@ -1,0 +1,81 @@
+.topo ul li:nth-child(3) a{
+  color: blue;
+}
+.sobre{
+ display: flex; 
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+  
+  form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-sizing: border-box;
+  /* padding: 100px; */
+  /* padding-top: 30px; */
+  max-width: 800px;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 0 auto;
+
+}
+.dados {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 1 300px;
+ 
+}
+.dados > input,
+.dados > select {
+  flex: 1 1;
+  height: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+
+.dados-obs {
+  flex: 1 1 100%;
+  color: gray;
+}
+
+.dados-obs textarea {
+  height: 250px;
+  resize: none;
+  border: solid 1px gray;
+}
+.buttons {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.buttons input {
+  border: none;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 100px;
+}
+
+.buttons input:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 5px 0 gray;
+}
+.buttons input:first-child {
+  background: blue;
+  color: white;
+}
+.buttons input:last-child {
+  border: 1px solid var(--second-blue);
+  color: var(--second-blue);
+}
